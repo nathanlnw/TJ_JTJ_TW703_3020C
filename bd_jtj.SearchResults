@@ -1,0 +1,4 @@
+---- device_version Matches (4 in 2 files) ----
+Menu_Include.c (bsp\stm32f407vgt6_recdrv\app_712\lcd):unsigned char device_version[30]={"主机版本:gghypt V1.0"};  //{"主机版本:V BD 2.00"};   // 北斗货运平台对接  
+Menu_Include.c (bsp\stm32f407vgt6_recdrv\app_712\lcd):	lcd_text12(0, 3,(char *)device_version,strlen((const char*)device_version),LCD_MODE_SET); 
+Menu_Include.h (bsp\stm32f407vgt6_recdrv\app_712\lcd):extern unsigned char device_version[30];  
